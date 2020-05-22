@@ -9,7 +9,7 @@ if [[ -f $hookfile ]]; then
 fi
 
 echo '#!/bin/bash
-patch=$(git clang-format --diff -- $(git diff --staged --name-only -- src include tests unit))
+patch=$(git clang-format-6.0 --diff -- $(git diff --staged --name-only -- src include tests unit))
 if [[ "$patch" =~ "no modified files to format" || "$patch" =~ "clang-format did not modify any files" ]]; then
     echo "" > /dev/null
 else
@@ -23,4 +23,3 @@ fi
 ' > $hookfile
 
 chmod a+x $hookfile
-
