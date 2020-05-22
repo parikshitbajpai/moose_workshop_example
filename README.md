@@ -1,6 +1,9 @@
-workshop_example
+Multiphysics App using MOOSE
 =====
 
-"Fork workshop_example" to create a new MOOSE-based application.
+This is a fork to create a new MOOSE-based application to reproduce the [MOOSE Workshop Tutorial](https://mooseframework.org/workshop/#/).
 
-For more information see: [http://mooseframework.org/create-an-app/](http://mooseframework.org/create-an-app/)
+Problem Statement based on:
+Pamuk and Ozdemir, "[_Friction factor, permeability, and inertial coefficient of oscillating flow through porous media of packed balls_](https://www.sciencedirect.com/science/article/pii/S0894177711002640)", Experimental Thermal and Fluid Science, v. 38, pp. 134-139, 2012.
+
+For more information see: [MOOSE Framework](http://mooseframework.org/create-an-app/).
